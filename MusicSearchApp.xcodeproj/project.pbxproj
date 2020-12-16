@@ -122,9 +122,9 @@
 				EE6BD4FE2583BBF400DA2263 /* View */,
 				EE62926525837C6300E184D7 /* Controller */,
 				EE60176F2581700A00C736E7 /* NetworkService */,
-				EE13360E2588BCB600DC99B4 /* SupportingFiles */,
 				EEE1B4872587FB4300C0A947 /* Extension */,
 				EE5120EB258953B80085D9A1 /* appIcons */,
+				EE13360E2588BCB600DC99B4 /* SupportingFiles */,
 				EE60176525816EF100C736E7 /* Info.plist */,
 			);
 			path = MusicSearchApp;
