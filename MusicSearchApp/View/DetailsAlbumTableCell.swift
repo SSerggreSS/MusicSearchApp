@@ -10,7 +10,6 @@ import SDWebImage
 
 class DetailsAlbumTableCell: UITableViewCell {
     
-    
     //MARK: - UI Elements
     
     private let musicAlbumImageView: UIImageView = {
@@ -40,21 +39,7 @@ class DetailsAlbumTableCell: UITableViewCell {
             label.adjustsFontSizeToFitWidth = true
             label.tag = i
             
-            switch i {
-            case 0:
-                label.font = UIFont(name: "Arial black", size: 30)
-            case 1:
-                break
-            case 2:
-                break
-            case 3:
-                break
-            default:
-                break
-            }
-            
             labels.append(label)
-            
         }
         
         return labels
@@ -172,8 +157,7 @@ extension DetailsAlbumTableCell {
         
         musicAlbumDetailsLabels[0].text = album.collectionName
         musicAlbumDetailsLabels[1].text = album.artistName
-        let dateString = album.releaseDate.dateString()
-        musicAlbumDetailsLabels[2].text = dateString
+        musicAlbumDetailsLabels[2].text = album.releaseDate.dateString()
         musicAlbumDetailsLabels[3].text = "\(album.collectionPrice) $"
         musicAlbumDetailsLabels[4].text = album.primaryGenreName
     }

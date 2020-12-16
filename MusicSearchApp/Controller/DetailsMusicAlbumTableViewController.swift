@@ -32,6 +32,7 @@ class DetailsMusicAlbumTableViewController: UITableViewController {
         super.loadView()
         
         NetworkDataFetcher.shared.fetchSongsPageBy(id: self.musicAlbum.collectionId) { [weak self] (result) -> (Void) in
+            
             guard let self = self else { return }
             
             switch result {

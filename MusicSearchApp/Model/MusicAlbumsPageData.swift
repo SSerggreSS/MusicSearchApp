@@ -19,11 +19,9 @@ struct MusicAlbumData: Codable {
     let artistName: String
     let artworkUrl100: String
     let collectionName: String
-    let collectionViewUrl: String
     let primaryGenreName: String
     let releaseDate: String
     let collectionPrice: Double
-    let trackCount: Int
     let collectionId: Int
     
 }
